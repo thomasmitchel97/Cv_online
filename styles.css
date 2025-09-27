@@ -1,3 +1,8 @@
+/* Más espacio entre renglones en los logros */
+.content-section ul li {
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
         /* --- Estilos Generales --- */
         @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;500&display=swap');
 
@@ -51,7 +56,7 @@
         .profile-picture {
             width: 150px;
             height: 150px;
-            border: 2px dashed #ccc;
+            border: none;
             background-color: #f0f0f0;
             display: flex;
             justify-content: center;
